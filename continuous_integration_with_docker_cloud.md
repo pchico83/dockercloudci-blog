@@ -5,21 +5,21 @@ Docker Cloud ([dockercon16 demo](https://youtu.be/ZsIb5tkyncA)) focuses on autom
 - Integration with third party registries to follow the "batteries included but removable" mantra.
 - Better integration with Github and Bitbucket to notify statuses:
 
-![GitStatuses](./GitStatuses.png =400x130 )
+![GitStatuses](./GitStatuses.png)
 
 - Autobuild logs are available in real time.
 - Ability to define environment variables to parametrize your builds.
 - Support for building in your own nodes or for selecting the right builder size to optimize your builds:
 
-![BuilderSize](./BuilderSize.png =400x160 )
+![BuilderSize](./BuilderSize.png)
 
 - Slack integration to notify the status of your autobuilds:
 
-![Slack](./Slack.png =400x70 )
+![Slack](./Slack.png)
 
 - Ability to cancel a running build or to retry a build that failed due to a temporal issue:
 
-![Cancel](./Cancel.png =400x140 )
+![Cancel](./Cancel.png)
 
 
 Each autobuilds in Docker Cloud is a sequence of three operations: build, test and push. There is a default behavior for each these operations:
